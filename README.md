@@ -91,7 +91,7 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("Hello, World!")
-```
+``
 - Still within the app directory, open (or create)  `urls.py` 
 ```python
 from django.urls import path
